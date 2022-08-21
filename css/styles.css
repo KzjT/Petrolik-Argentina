@@ -189,7 +189,7 @@ a:focus {
   font-display: swap;
   font-size: 1.7rem;
   margin-bottom: 4rem;
-  color:#444
+  color: #444;
 }
 
 .h1-index {
@@ -221,10 +221,11 @@ a:focus {
 
 .b-example-divider {
   height: 3rem;
-  background-color: rgba(0, 0, 0, .1);
-  border: solid rgba(0, 0, 0, .15);
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
   border-width: 1px 0;
-  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
 }
 
 .b-example-vr {
@@ -234,7 +235,7 @@ a:focus {
 }
 
 .bi {
-  vertical-align: -.125em;
+  vertical-align: -0.125em;
   fill: currentColor;
 }
 
@@ -256,11 +257,11 @@ a:focus {
   -webkit-overflow-scrolling: touch;
 }
 
-.carrouselImage{
+.carrouselImage {
   object-fit: cover;
   height: 500px;
   width: 100%;
-  height: ;
+  height: 500px;
 }
 /* CIERRO INDEX */
 
@@ -413,13 +414,12 @@ a:focus {
   font-display: swap;
   font-size: 1.7rem;
   margin-bottom: 4rem;
-  color:#444
+  color: #444;
 }
 
 .h2-nuestraEmpresa2 {
   font-weight: bold;
   font-size: 3rem;
- 
 }
 
 .divTittleNuestra {
@@ -552,7 +552,7 @@ a:focus {
   font-display: swap;
   font-size: 1.7rem;
   margin-bottom: 4rem;
-  color:#444
+  color: #444;
 }
 
 .h2-sustentabilidad {
@@ -596,9 +596,21 @@ a:focus {
   margin-left: 15rem;
   width: 40%;
   height: auto;
-  background-image: linear-gradient(to left bottom, #fece18, #ff9b4a, #ed776d, #b9657d, #7d5a74, #795870, #75566d, #715469, #a15c6e, #c9695f, #db8441, #d1ab1e);
-  
-
+  background-image: linear-gradient(
+    to left bottom,
+    #fece18,
+    #ff9b4a,
+    #ed776d,
+    #b9657d,
+    #7d5a74,
+    #795870,
+    #75566d,
+    #715469,
+    #a15c6e,
+    #c9695f,
+    #db8441,
+    #d1ab1e
+  );
 }
 
 .obras1 img {
@@ -621,8 +633,21 @@ a:focus {
   margin-left: 2rem;
   width: 40%;
   height: auto;
-background-image: linear-gradient(to right bottom, #fece18, #ff9b4a, #ed776d, #b9657d, #7d5a74, #795870, #75566d, #715469, #a15c6e, #c9695f, #db8441, #d1ab1e);
-
+  background-image: linear-gradient(
+    to right bottom,
+    #fece18,
+    #ff9b4a,
+    #ed776d,
+    #b9657d,
+    #7d5a74,
+    #795870,
+    #75566d,
+    #715469,
+    #a15c6e,
+    #c9695f,
+    #db8441,
+    #d1ab1e
+  );
 }
 
 .obras2 img {
