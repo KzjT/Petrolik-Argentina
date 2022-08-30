@@ -1,0 +1,84 @@
+/* ++++++++++++++++++++++++INDEX GRID +++++++++++++++++++++++*/
+
+.bodyIndex {
+    font-family: "Ubuntu", sans-serif;
+    display: grid;
+    grid-template-areas:
+        "header header "
+        "main main"
+        "footer footer";
+}
+
+.headerFirst {
+    grid-area: header;
+}
+
+.footerGrid {
+    grid-area: footer;
+}
+
+.mainIndex {
+    grid-area: main;
+}
+
+/* cierro grid index */
+
+/* +++++++++++++++++Grid nuestra Empresa +++++++++++++++*/
+
+.bodyNuestraEmpresa {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "main main"
+        "footer footer";
+}
+
+.mainNuestra {
+    grid-area: main;
+}
+
+/* cierro grid nuestra empresa */
+
+/* ++++++++++++++++++++++ Grid Sustentabilidad++++++++++++ */
+
+.bodySustentabilidad {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "main main"
+        "footer footer";
+}
+
+.mainSustenta {
+    grid-area: main;
+}
+
+/*++++++++++++++++++++++++ Grid contacto +++++++++++++++++*/
+
+.bodyContact {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "main main"
+        "footer footer";
+}
+
+.mainContact {
+    grid-area: main;
+}
+
+/* cierro grid contacto */
+
+/* +++++++++++++++++++Grid Innovaciones+++++++++++++++++ */
+
+.bodyInnovaciones {
+    display: grid;
+    grid-template-areas:
+        "header header header header"
+        "main main main main"
+        "footer footer footer footer";
+}
+
+.mainInnova {
+    grid-area: main;
+}

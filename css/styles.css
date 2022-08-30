@@ -1,157 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap");
+.bodyIndex {
+  background: linear-gradient(to left, #f5eeb7, #fece18); }
+
 * {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 html {
-  font-size: 62.5%;
-}
+  font-size: 62.5%; }
 
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+.h1-General {
+  font-size: 5rem;
+  font-weight: bold;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-shadow: #fece18;
+  margin-bottom: 0rem;
+  font-family: "Teko", sans-serif; }
 
-@import url("https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap");
+.boton-contact {
+  width: 100%;
+  height: 45px;
+  margin-top: 15px;
+  border-radius: 4px;
+  border: none;
+  color: black;
+  text-transform: uppercase;
+  background: #fece18;
+  font-size: 2rem; }
 
-@import url("https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap");
+.my-button {
+  position: fixed;
+  right: 0px;
+  bottom: 110px;
+  width: 70px;
+  height: 70px;
+  z-index: 100; }
 
 /* ++++++++++++++++++++++++INDEX GRID +++++++++++++++++++++++*/
-
 .bodyIndex {
   font-family: "Ubuntu", sans-serif;
   display: grid;
-  grid-template-areas:
-    "header header "
-    "main main"
-    "footer footer";
-}
+  grid-template-areas: "header header " "main main" "footer footer"; }
 
 .headerFirst {
-  grid-area: header;
-}
+  grid-area: header; }
 
 .footerGrid {
-  grid-area: footer;
-}
+  grid-area: footer; }
 
 .mainIndex {
-  grid-area: main;
-}
+  grid-area: main; }
 
 /* cierro grid index */
-
 /* +++++++++++++++++Grid nuestra Empresa +++++++++++++++*/
-
 .bodyNuestraEmpresa {
   display: grid;
-  grid-template-areas:
-    "header header"
-    "main main"
-    "footer footer";
-}
+  grid-template-areas: "header header" "main main" "footer footer"; }
 
 .mainNuestra {
-  grid-area: main;
-}
+  grid-area: main; }
 
 /* cierro grid nuestra empresa */
-
 /* ++++++++++++++++++++++ Grid Sustentabilidad++++++++++++ */
-
 .bodySustentabilidad {
   display: grid;
-  grid-template-areas:
-    "header header"
-    "main main"
-    "footer footer";
-}
+  grid-template-areas: "header header" "main main" "footer footer"; }
 
 .mainSustenta {
-  grid-area: main;
-}
+  grid-area: main; }
 
 /*++++++++++++++++++++++++ Grid contacto +++++++++++++++++*/
-
 .bodyContact {
   display: grid;
-  grid-template-areas:
-    "header header"
-    "main main"
-    "footer footer";
-}
+  grid-template-areas: "header header" "main main" "footer footer"; }
 
 .mainContact {
-  grid-area: main;
-}
+  grid-area: main; }
 
 /* cierro grid contacto */
-
 /* +++++++++++++++++++Grid Innovaciones+++++++++++++++++ */
-
 .bodyInnovaciones {
   display: grid;
-  grid-template-areas:
-    "header header header header"
-    "main main main main"
-    "footer footer footer footer";
-}
+  grid-template-areas: "header header header header" "main main main main" "footer footer footer footer"; }
 
 .mainInnova {
-  grid-area: main;
-}
+  grid-area: main; }
 
-/* ----------------------------CSS ---------------------------------*/
-
-/* ----------------------------CSS ---------------------------------*/
-
-/* ----------------------------CSS ---------------------------------*/
-
-/* ----------------------------CSS ---------------------------------*/
-
-/* ----------------------------Header---------------------------- */
 .headerFirst {
-  background-color: #fece18;
+  background-color:#fece18;
   position: sticky;
-  top: 0;
-}
+  top: 0; }
 
 .real-nav li {
   padding-left: 4em;
-  margin-left: 2rem;
-}
+  margin-left: 2rem; }
+  .real-nav li a {
+    font-weight: 500;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.3s;
+    font-size: 1.5rem; }
+    .real-nav li a:hover {
+      background-size: 100% 2px; }
 
-.real-nav li a {
-  font-weight: 500;
-}
-
-.real-nav li a {
-  text-decoration: none;
-  background-image: linear-gradient(currentColor, currentColor);
-  background-position: 0% 100%;
-  background-repeat: no-repeat;
-  background-size: 0% 2px;
-  transition: background-size 0.3s;
-  font-size: 1.5rem;
-}
-.real-nav li a:hover,
 a:focus {
-  background-size: 100% 2px;
-}
+  background-size: 100% 2px; }
 
 .spanLogo img text {
   font-weight: bold;
-  font-size: 5rem;
-}
+  font-size: 5rem; }
 
 .conteinerLogo {
   width: 80px;
-  height: 80px;
-}
+  height: 80px; }
+
+.link-dark {
+  margin-left: 5rem; }
+
+.footerCopy {
+  font-weight: bold; }
+
+.logoFooter {
+  width: 34px;
+  height: 34px; }
+
+.divForm {
+  background-color: transparent;
+  vertical-align: middle;
+  width: 400px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  color: transparent;
+  box-shadow: 7px 13px 37px #000; }
+  .divForm .control {
+    width: 100%;
+    background-color: #fece18;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    font-size: 2rem; }
+    .divForm .control .boton-contact {
+      width: 100%;
+      height: 45px;
+      margin-top: 15px;
+      border-radius: 4px;
+      border: none;
+      color: black;
+      text-transform: uppercase;
+      background: blue;
+      font-size: 2rem; }
+
+.bodyContact {
+  background: linear-gradient(to left, #f5eeb7, #fece18); }
+  .bodyContact .mainContact {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    width: 100%; }
+
+.infoContact {
+  background-color: transparent;
+  vertical-align: middle;
+  width: 300px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  box-shadow: 7px 13px 37px #000;
+  list-style: none; }
+  .infoContact ul {
+    margin-top: 2rem;
+    text-decoration: none;
+    font-weight: bold; }
+    .infoContact ul li {
+      margin-top: 2rem;
+      text-decoration: none;
+      list-style: none; }
+      .infoContact ul li a {
+        text-decoration: none;
+        font-size: 1.5rem; }
+        .infoContact ul li a .boldInfo {
+          margin-bottom: 2rem;
+          font-weight: bold;
+          font-size: 2rem; }
+          .infoContact ul li a .boldInfo .principalContact {
+            font-size: 2rem;
+            display: inline-block;
+            color: black;
+            vertical-align: middle; }
+            .infoContact ul li a .boldInfo .principalContact .principalContact span {
+              font-weight: bold;
+              vertical-align: middle; }
+
+.my-button {
+  position: fixed;
+  right: 0px;
+  bottom: 110px;
+  width: 70px;
+  height: 70px;
+  z-index: 100; }
+
+.map {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin-top: 3rem;
+  margin-bottom: 2rem; }
+  .map .mapp {
+    width: 100%;
+    height: auto; }
+
+
+
+/* ----------------------------CSS Para cambiarlo a scss? ---------------------------------*/
+
+/* ----------------------------CSS Para cambiarlo a scss? ---------------------------------*/
+
+/* ----------------------------CSS Para cambiarlo a scss? ---------------------------------*/
+
+/* ----------------------------CSS Para cambiarlo a scss? ---------------------------------*/
+
+
 
 /* ---------------------------INDEX ---------------------------*/
-.headerFirst {
-  position: sticky;
-  top: 0;
-}
-
 .bodyIndex {
   background: #fffc00;
   background: -webkit-linear-gradient(to left, #f5eeb7, #fece18);
@@ -185,9 +273,9 @@ a:focus {
 .divParra {
   font-family: "ubuntu";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-display: swap;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   margin-bottom: 4rem;
   color: #444;
 }
@@ -201,8 +289,6 @@ a:focus {
   border-bottom: 2px solid #fece18;
 }
 
-.img-indexxx {
-}
 
 /* carrousel index */
 .bd-placeholder-img {
@@ -410,10 +496,10 @@ a:focus {
 .parra-nuestraEmpresa {
   font-family: "ubuntu";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-display: swap;
-  font-size: 1.7rem;
-  margin-bottom: 4rem;
+  font-size: 2rem;
+  margin-top: 2rem;
   color: #444;
 }
 
@@ -548,11 +634,12 @@ a:focus {
 .parrafo-sustentable {
   font-family: "ubuntu";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-display: swap;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   margin-bottom: 4rem;
   color: #444;
+  padding: 1rem;
 }
 
 .h2-sustentabilidad {
@@ -693,171 +780,7 @@ a:focus {
   font-weight: bold;
 }
 
-/* CONTACTO */
 
-.bodyContact {
-  background: #fffc00;
-  background: -webkit-linear-gradient(to left, #f5eeb7, #fece18);
-  background: linear-gradient(to left, #f5eeb7, #fece18);
-}
-
-.mainContact {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-  margin-bottom: 1.5rem;
-  width: 100%;
-}
-
-.infoContact {
-  background-color: transparent;
-  vertical-align: middle;
-  width: 300px;
-  padding: 30px;
-  margin: auto;
-  margin-top: 100px;
-  border-radius: 4px;
-  font-family: "Roboto", sans-serif;
-  color: black;
-  box-shadow: 7px 13px 37px #000;
-  list-style: none;
-}
-
-.infoContact ul {
-  margin-top: 2rem;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.infoContact ul li {
-  margin-top: 2rem;
-  text-decoration: none;
-  list-style: none;
-}
-
-.infoContact ul li a {
-  text-decoration: none;
-  font-size: 1.5rem;
-}
-
-.boldInfo {
-  margin-bottom: 2rem;
-  font-weight: bold;
-  font-size: 2rem;
-}
-
-.principalContact {
-  font-size: 2rem;
-  display: inline-block;
-  color: black;
-  vertical-align: middle;
-}
-
-.principalContact span {
-  font-weight: bold;
-  vertical-align: middle;
-}
-
-.divForm {
-  background-color: transparent;
-  vertical-align: middle;
-  width: 400px;
-  padding: 30px;
-  margin: auto;
-  margin-top: 100px;
-  border-radius: 4px;
-  font-family: "Roboto", sans-serif;
-  color: transparent;
-  box-shadow: 7px 13px 37px #000;
-}
-
-.contenedor h1 {
-  font-size: 2rem;
-  margin-top: 15px;
-  margin-bottom: 1rem;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.control {
-  width: 100%;
-  background-color: #fece18;
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 20px;
-  border: 1px solid black;
-  font-size: 2rem;
-}
-
-.boton {
-  width: 100%;
-  height: 45px;
-  margin-top: 15px;
-  border-radius: 4px;
-  border: none;
-  color: black;
-  text-transform: uppercase;
-  background: linear-gradient(to left top, yellow, #fece19);
-  font-size: 2rem;
-}
-
-.my-button {
-  position: fixed;
-  right: 0px;
-  bottom: 110px;
-  width: 70px;
-  height: 70px;
-  z-index: 100;
-}
-
-.map {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  width: 100%;
-  height: auto;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
-}
-
-.mapp {
-  width: 100%;
-  height: auto;
-}
-
-.divH1General {
-  margin-top: 2rem;
-  margin-bottom: 5rem;
-}
-
-.h1-General {
-  font-size: 5rem;
-  font-weight: bold;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  text-shadow: #fece18;
-  margin-bottom: 0rem;
-  font-family: "Teko", sans-serif;
-}
-
-/* cierro contacto */
-
-/*--------------------------- FOOTER -----------------------*/
-
-.logoFooter {
-  width: 34px;
-  height: 34px;
-}
-
-.footerCopy {
-  font-weight: bold;
-}
-
-.link-dark {
-  margin-left: 5rem;
-}
 
 /* media movil a tablet */
 

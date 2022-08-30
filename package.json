@@ -1,0 +1,26 @@
+{
+  "name": "petrolik-argentina",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lukjjz95/Petrolik-Argentina.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lukjjz95/Petrolik-Argentina/issues"
+  },
+  "homepage": "https://github.com/Lukjjz95/Petrolik-Argentina#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {},
+  "description": ""
+}
