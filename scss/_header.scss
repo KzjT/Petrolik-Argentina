@@ -1,35 +1,37 @@
+/* abro header*/
 .headerFirst {
-    background-color: $color-base;
-    position: sticky;
-    top: 0;
+  background-color: $color-base;
+  position: sticky;
+  top: 0;
 
-    .conteinerLogo {
-        width: 80px;
-        height: 80px;
-    }
+  .conteinerLogo {
+    width: 80px;
+    height: 80px;
+  }
 }
 
 .real-nav li {
-    padding-left: 4em;
-    margin-left: 2rem;
+  padding-left: 4em;
+  margin-left: 2rem;
 
-    a {
-        font-weight: 500;
-        text-decoration: none;
-        background-image: linear-gradient(currentColor, currentColor);
-        background-position: 0% 100%;
-        background-repeat: no-repeat;
-        background-size: 0% 2px;
-        transition: background-size 0.3s;
-        font-size: 1.5rem;
+  a {
+    font-weight: 500;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.3s;
+    font-size: 1.5rem;
 
-        &:hover {
-            background-size: 100% 2px;
+    &:hover {
+      background-size: 100% 2px;
 
-            &:focus {
-                background-size: 100% 2px;
-            }
-
-        }
+      &:focus {
+        background-size: 100% 2px;
+      }
     }
+  }
 }
+
+/*cierro header*/

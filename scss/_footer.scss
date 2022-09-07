@@ -1,13 +1,20 @@
-.link-dark {
-    margin-left: 5rem;
+/*abro footer*/
+.footerGrid {
+  ul li a {
+    font-weight: bold;
+    color: black;
+  }
 }
-    .footerCopy {
-        font-weight: bold;
-    }
 
-
+.link-dark {
+  margin-left: 5rem;
+}
+.footerCopy {
+  font-weight: bold;
+}
 
 .logoFooter {
-    width: 34px;
-    height: 34px;
+  width: 34px;
+  height: 34px;
 }
+/*cierro footer*/

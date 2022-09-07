@@ -1,0 +1,26 @@
+/*Extend*/
+
+.divParra {
+  font-family: "ubuntu";
+  font-style: normal;
+  font-display: swap;
+  font-size: 1.8rem;
+  color: #444;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+
+.parra-nuestraEmpresa {
+  @extend .divParra;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+}
+
+.parrafo-sustentable {
+  @extend .divParra;
+  padding: 1rem;
+}
+
+/*cierro extends parrafos*/
+
+/*extend quienes somos*/

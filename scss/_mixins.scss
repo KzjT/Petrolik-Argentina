@@ -1,0 +1,138 @@
+/*mixin*/
+
+@mixin parrafos {
+  font-family: "ubuntu";
+  font-style: normal;
+  font-display: swap;
+  font-size: 1.8rem;
+  color: #444;
+  font-weight: 600;
+}
+
+.divParra {
+  @include parrafos;
+  margin-bottom: 4rem;
+}
+
+/*abro nuestra empresa mixin*/
+
+@mixin nuestraEmpresa123 {
+  max-width: 40%;
+  max-height: 5000px;
+  padding-left: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  margin-right: 2rem;
+  margin-left: 1rem;
+  margin-top: 4rem;
+}
+
+.sectionNuestraEmpresa_1 {
+  @include nuestraEmpresa123;
+}
+
+.sectionNuestraEmpresa_2 {
+  @include nuestraEmpresa123;
+}
+
+.sectionNuestraEmpresa_3 {
+  @include nuestraEmpresa123;
+}
+
+@mixin nuestraEmpresaABC {
+  max-width: 50%;
+  max-height: 5000px;
+  padding-left: 1rem;
+  display: flex;
+  width: auto;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  flex-wrap: wrap;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 3rem;
+  margin-top: 4rem;
+}
+
+.sectionNuestraEmpresa_a {
+  @include nuestraEmpresaABC;
+}
+
+.sectionNuestraEmpresa_b {
+  @include nuestraEmpresaABC;
+  margin-top: 7rem;
+}
+
+.sectionNuestraEmpresa_c {
+  @include nuestraEmpresaABC;
+  margin-bottom: 7rem;
+  margin-top: 10rem;
+}
+
+/*cierro nuestra empresa mixin*/
+
+@mixin sustentaLargo {
+  max-width: auto;
+  max-height: 5000px;
+  padding-left: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  background-color: transparent;
+  margin-top: 5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 3rem;
+  box-shadow: 10px 2px 7px;
+}
+
+@mixin sustentaCorto {
+  max-width: 600px;
+  max-height: 5000px;
+  padding-left: 1rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  background-color: transparent;
+  flex-wrap: wrap;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 3rem;
+  box-shadow: 10px 2px 7px;
+  object-fit: contain;
+}
+
+.sustenta1 {
+  @include sustentaLargo;
+}
+
+.sustenta2 {
+  @include sustentaCorto;
+}
+
+.sustenta3 {
+  @include sustentaCorto;
+}
+
+.sustenta4 {
+  @include sustentaLargo;
+}
+
+.sustenta5 {
+  @include sustentaCorto;
+}
+
+.sustenta6 {
+  @include sustentaCorto;
+}
+/*cierro mixins*/

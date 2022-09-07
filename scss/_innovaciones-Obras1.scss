@@ -1,0 +1,72 @@
+.mainInnova {
+  font-family: "Teko", sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  background-color: transparent;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.obras1 {
+  padding-left: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-top: 10rem;
+  padding-top: 5rem;
+  margin-bottom: 5rem;
+  padding-bottom: 5rem;
+  margin-right: 2rem;
+  margin-left: 15rem;
+  width: 40%;
+  height: auto;
+  background-image: linear-gradient(
+    to left bottom,
+    #fece18,
+    #ff9b4a,
+    #ed776d,
+    #b9657d,
+    #7d5a74,
+    #795870,
+    #75566d,
+    #715469,
+    #a15c6e,
+    #c9695f,
+    #db8441,
+    #d1ab1e
+  );
+
+  .galeria2023:hover .imgInnovaciones {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    cursor: pointer;
+    filter: opacity(0.5);
+
+    .h2divsInno {
+      font-size: 1.7rem;
+      font-weight: bold;
+      margin-top: 3rem;
+    }
+  }
+}
+.obras1 img {
+  width: 500px;
+  height: 300px;
+}
+
+.h2Proyectos {
+  font-weight: bold;
+  font-size: 3rem;
+  text-decoration: underline;
+  display: flex;
+}
+
+.h2InnoFirst {
+  font-size: 3.2rem;
+  font-weight: bold;
+}

@@ -1,73 +1,73 @@
+/*abro contact info*/
 .bodyContact {
-    background: $bg;
+  background: $bg;
 
-    .mainContact {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        flex-direction: column;
-        margin-bottom: 1.5rem;
-        width: 100%;
-    }
+  .mainContact {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    width: 100%;
+  }
 }
 
-
 .infoContact {
-    background-color: transparent;
-    vertical-align: middle;
-    width: 300px;
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
-    font-family: "Roboto", sans-serif;
-    color: black;
-    box-shadow: 7px 13px 37px #000;
-    list-style: none;
+  background-color: transparent;
+  vertical-align: middle;
+  width: 300px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  box-shadow: 7px 13px 37px #000;
+  list-style: none;
 
-    ul {
-        margin-top: 2rem;
+  ul {
+    margin-top: 2rem;
+    text-decoration: none;
+    font-weight: bold;
+
+    li {
+      margin-top: 2rem;
+      text-decoration: none;
+      list-style: none;
+
+      a {
         text-decoration: none;
-        font-weight: bold;
+        font-size: 1.5rem;
 
-        li {
-            margin-top: 2rem;
-            text-decoration: none;
-            list-style: none;
+        .boldInfo {
+          margin-bottom: 2rem;
+          font-weight: bold;
+          font-size: 2rem;
 
-            a {
-                text-decoration: none;
-                font-size: 1.5rem;
+          .principalContact {
+            font-size: 2rem;
+            display: inline-block;
+            color: black;
+            vertical-align: middle;
 
-                .boldInfo {
-                    margin-bottom: 2rem;
-                    font-weight: bold;
-                    font-size: 2rem;
-
-                    .principalContact {
-                        font-size: 2rem;
-                        display: inline-block;
-                        color: black;
-                        vertical-align: middle;
-
-                        .principalContact span {
-                            font-weight: bold;
-                            vertical-align: middle;
-                        }
-                    }
-                }
+            .principalContact span {
+              font-weight: bold;
+              vertical-align: middle;
             }
+          }
         }
+      }
     }
+  }
 }
 
 .my-button {
-    position: fixed;
-    right: 0px;
-    bottom: 110px;
-    width: 70px;
-    height: 70px;
-    z-index: 100;
+  position: fixed;
+  right: 0px;
+  bottom: 110px;
+  width: 70px;
+  height: 70px;
+  z-index: 100;
 }
 
-
+/*cierro contact info*/

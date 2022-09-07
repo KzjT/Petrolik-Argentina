@@ -1,0 +1,51 @@
+/*abro innova obras2*/
+
+.obras2 {
+  padding-left: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  background-color: transparent;
+  margin-top: 10rem;
+  padding-top: 5rem;
+  margin-bottom: 5rem;
+  padding-bottom: 5rem;
+  margin-left: 2rem;
+  width: 40%;
+  height: auto;
+  background-image: linear-gradient(
+    to right bottom,
+    #fece18,
+    #ff9b4a,
+    #ed776d,
+    #b9657d,
+    #7d5a74,
+    #795870,
+    #75566d,
+    #715469,
+    #a15c6e,
+    #c9695f,
+    #db8441,
+    #d1ab1e
+  );
+
+  .galeria2024:hover .imgInnovaciones {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    cursor: pointer;
+    filter: opacity(0.5);
+
+    .h2divsInno {
+      font-size: 1.7rem;
+      font-weight: bold;
+      margin-top: 3rem;
+    }
+  }
+}
+
+.obras2 img {
+  width: 500px;
+  height: 300px;
+}

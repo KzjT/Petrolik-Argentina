@@ -1,0 +1,26 @@
+/*map*/
+
+$mapFuentes: (
+  titulosh1: black,
+  parrafos: #444,
+);
+
+@each $fuentes, $colorFuente in $mapFuentes {
+  .#{$fuentes} {
+    color: $colorFuente;
+  }
+}
+
+/*MAP - GET*/
+
+$estilo: (
+  color: orange,
+  tamFuente: 2.5rem,
+);
+
+.h2-nuestraEmpresa2 {
+  color: map-get($estilo, color);
+  font-size: map-get($estilo, tamFuente);
+}
+
+/*cierro map get*/

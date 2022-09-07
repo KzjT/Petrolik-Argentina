@@ -1,0 +1,54 @@
+/* Abro Nuestra Empresa*/
+
+.bodyNuestraEmpresa {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  .mainNuestra {
+    display: flex;
+    flex-wrap: wrap;
+
+    .divVideo iframe {
+      width: 800px;
+      height: 600px;
+      margin-top: 4rem;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.divTittleNuestra {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  .h2-nuestraEmpresa2 {
+    font-weight: bold;
+    font-size: 3rem;
+  }
+}
+.divImg-NuestraEmpresa {
+  max-height: auto;
+}
+
+.img3 img {
+  width: 800px;
+  height: 600px;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.img4 img {
+  width: 800px;
+  height: 700px;
+  margin-top: 0rem;
+  margin-bottom: 7rem;
+  object-fit: cover;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+/*cierro nuestra empresa*/
