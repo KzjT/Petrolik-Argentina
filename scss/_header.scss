@@ -3,6 +3,7 @@
   background-color: $color-base;
   position: sticky;
   top: 0;
+  z-index: 6;
 
   .conteinerLogo {
     width: 80px;
@@ -34,4 +35,7 @@
   }
 }
 
+.animate__animated.animate__bounce {
+  --animate-duration: 1.5s;
+}
 /*cierro header*/
