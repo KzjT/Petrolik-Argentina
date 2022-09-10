@@ -15,12 +15,13 @@ body {
   background: linear-gradient(to left, #f5eeb7, #fece18); }
 
 .h1-General {
-  font-size: 5rem;
+  font-size: 6rem;
   font-weight: bold;
   display: flex;
   align-content: center;
   justify-content: center;
   text-shadow: #fece18;
+  margin-top: 5rem;
   margin-bottom: 0rem;
   font-family: "Teko", sans-serif; }
 
@@ -95,22 +96,6 @@ body {
 
 /*cierro grid innovacion*/
 /*cierro grid*/
-/*abro footer*/
-.footerGrid ul li a {
-  font-weight: bold;
-  color: black; }
-
-.link-dark {
-  margin-left: 5rem; }
-
-.footerCopy {
-  font-weight: bold; }
-
-.logoFooter {
-  width: 34px;
-  height: 34px; }
-
-/*cierro footer*/
 /* abro header*/
 .headerFirst {
   background-color: #fece18;
@@ -119,13 +104,14 @@ body {
   z-index: 6; }
   .headerFirst .conteinerLogo {
     width: 80px;
-    height: 80px; }
+    height: 80px;
+    font-weight: bold; }
 
 .real-nav li {
   padding-left: 4em;
   margin-left: 2rem; }
   .real-nav li a {
-    font-weight: 500;
+    font-weight: 500 !important;
     text-decoration: none;
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
@@ -142,6 +128,27 @@ body {
   --animate-duration: 1.5s; }
 
 /*cierro header*/
+/*abro footer*/
+.footerGrid ul li a {
+  font-weight: bold;
+  color: black; }
+
+.link-dark {
+  margin-left: 5rem; }
+
+.footerCopy {
+  font-weight: bold;
+  font-size: 2rem; }
+
+.logoFooter {
+  width: 34px;
+  height: 34px; }
+
+.footerText a {
+  font-size: bold;
+  font-size: 1.4rem; }
+
+/*cierro footer*/
 /*map*/
 .titulosh1 {
   color: black; }
@@ -366,17 +373,18 @@ body {
   font-family: "ubuntu";
   font-style: normal;
   font-display: swap;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   color: #444;
   font-weight: 600;
   margin-bottom: 4rem; }
 
 .parra-nuestraEmpresa {
   margin-top: 2rem;
-  margin-bottom: 0rem; }
+  margin-bottom: 0rem;
+  font-size: 1.8rem; }
 
 .parrafo-sustentable {
-  padding: 1rem; }
+  padding: 2rem; }
 
 /*cierro extends parrafos*/
 /*extend quienes somos*/
@@ -441,8 +449,9 @@ body {
       font-size: 2rem; } }
 
 .h1-index {
-  font-size: 5rem;
-  margin-bottom: 3rem; }
+  font-size: 8rem;
+  margin-bottom: 2rem;
+  font-family: "Teko", sans-serif; }
 
 /*cierro carrousel*/
 /*Abro section A- index*/
@@ -456,7 +465,8 @@ body {
     height: auto; }
     .sectionA .divH2 .h2-index {
       border-top: 2px solid #fece18;
-      border-bottom: 2px solid #fece18; }
+      border-bottom: 2px solid #fece18;
+      font-size: 3.5rem; }
 
 /*abro sectionB - index*/
 .sectionB {
@@ -468,7 +478,34 @@ body {
     height: auto; }
     .sectionB .divH2 .h2-index {
       border-top: 2px solid #fece18;
-      border-bottom: 2px solid #fece18; }
+      border-bottom: 2px solid #fece18;
+      font-size: 3.5rem; }
+
+.table-responsive {
+  overflow-x: auto; }
+
+.sectionBC {
+  width: 100%;
+  background-color: transparent;
+  margin-top: 5rem;
+  margin-right: 1rem;
+  margin-bottom: 5rem; }
+
+.graphh {
+  margin-right: 4rem; }
+
+.divCanvas {
+  height: 600px;
+  width: 100%;
+  max-height: 600px; }
+
+.canvass {
+  height: 380px;
+  width: 900px;
+  max-height: 600px; }
+
+.table-responsive {
+  width: 90%; }
 
 /*abro section C - index*/
 .sectionC {
@@ -480,7 +517,8 @@ body {
     height: auto; }
     .sectionC .divH2 .h2-index {
       border-top: 2px solid #fece18;
-      border-bottom: 2px solid #fece18; }
+      border-bottom: 2px solid #fece18;
+      font-size: 3.5rem; }
 
 /* Abro Nuestra Empresa*/
 .bodyNuestraEmpresa {
@@ -503,7 +541,9 @@ body {
   align-content: center; }
   .divTittleNuestra .h2-nuestraEmpresa2 {
     font-weight: bold;
-    font-size: 3rem; }
+    font-size: 3rem;
+    border-top: 2px solid #fece18;
+    border-bottom: 2px solid #fece18; }
 
 .divImg-NuestraEmpresa {
   max-height: auto; }
@@ -535,17 +575,15 @@ body {
   .mainSustenta .h2-sustentabilidad {
     font-weight: bold;
     margin-bottom: 2rem;
-    font-size: 3.2rem; }
+    font-size: 3.2rem;
+    border-bottom: 1.3px solid white; }
 
 .divImgSustantibilidad {
   width: 100%; }
-  .divImgSustantibilidad img {
-    object-fit: cover; }
-
-.img-fluidx {
-  width: 100%;
-  object-fit: cover;
-  height: 350px; }
+  .divImgSustantibilidad img-fluid {
+    width: 100%;
+    object-fit: cover;
+    height: 350px; }
 
 .mainInnova {
   font-family: "Teko", sans-serif;
@@ -573,30 +611,36 @@ body {
   margin-left: 15rem;
   width: 40%;
   height: auto;
-  background-image: linear-gradient(to left bottom, #fece18, #ff9b4a, #ed776d, #b9657d, #7d5a74, #795870, #75566d, #715469, #a15c6e, #c9695f, #db8441, #d1ab1e); }
-  .obras1 .galeria2023:hover .imgInnovaciones {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-    cursor: pointer;
-    filter: opacity(0.5); }
-    .obras1 .galeria2023:hover .imgInnovaciones .h2divsInno {
-      font-size: 1.7rem;
-      font-weight: bold;
-      margin-top: 3rem; }
+  background: linear-gradient(to right, #ffe000, #799f0c); }
+  .obras1 .galeria2023 {
+    margin-top: 3rem; }
+    .obras1 .galeria2023:hover .imgInnovaciones {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+      cursor: pointer;
+      filter: opacity(0.5); }
+      .obras1 .galeria2023:hover .imgInnovaciones .h2divsInno {
+        font-size: 1.7rem;
+        font-weight: bold;
+        margin-top: 3rem; }
 
 .obras1 img {
   width: 500px;
-  height: 300px; }
+  height: 300px;
+  object-fit: cover; }
 
 .h2Proyectos {
   font-weight: bold;
   font-size: 3rem;
   text-decoration: underline;
-  display: flex; }
+  display: flex;
+  margin-top: 2rem; }
 
 .h2InnoFirst {
   font-size: 3.2rem;
-  font-weight: bold; }
+  font-weight: bold;
+  text-orientation: sideways;
+  margin-top: 3rem; }
 
 /*abro innova obras2*/
 .obras2 {
@@ -615,25 +659,29 @@ body {
   width: 40%;
   height: auto;
   background-image: linear-gradient(to right bottom, #fece18, #ff9b4a, #ed776d, #b9657d, #7d5a74, #795870, #75566d, #715469, #a15c6e, #c9695f, #db8441, #d1ab1e); }
-  .obras2 .galeria2024:hover .imgInnovaciones {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-    cursor: pointer;
-    filter: opacity(0.5); }
-    .obras2 .galeria2024:hover .imgInnovaciones .h2divsInno {
-      font-size: 1.7rem;
-      font-weight: bold;
-      margin-top: 3rem; }
+  .obras2 .galeria2024 {
+    margin-top: 3rem; }
+    .obras2 .galeria2024:hover .imgInnovaciones {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+      cursor: pointer;
+      filter: opacity(0.5); }
+      .obras2 .galeria2024:hover .imgInnovaciones .h2divsInno {
+        font-size: 1.7rem;
+        font-weight: bold;
+        margin-top: 3rem; }
 
 .obras2 img {
   width: 500px;
-  height: 300px; }
+  height: 300px;
+  object-fit: cover; }
 
 /*abro contact form*/
 .divForm {
   background-color: transparent;
   vertical-align: middle;
-  width: 400px;
+  width: 70%;
+  height: auto;
   padding: 30px;
   margin: auto;
   margin-top: 100px;
@@ -651,7 +699,7 @@ body {
     font-size: 2rem; }
     .divForm .control .boton-contact {
       width: 100%;
-      height: 45px;
+      height: 145px;
       margin-top: 15px;
       border-radius: 4px;
       border: none;
@@ -659,6 +707,10 @@ body {
       text-transform: uppercase;
       background: blue;
       font-size: 2rem; }
+
+.textAreaContactForm {
+  height: 100px;
+  max-height: 500px; }
 
 /*cierro contact-form*/
 /*abro contact info*/
@@ -675,30 +727,37 @@ body {
 .infoContact {
   background-color: transparent;
   vertical-align: middle;
-  width: 300px;
+  width: 70%;
   padding: 30px;
   margin: auto;
   margin-top: 100px;
   border-radius: 4px;
   font-family: "Roboto", sans-serif;
   color: black;
-  box-shadow: 7px 13px 37px #000;
   list-style: none; }
   .infoContact ul {
     margin-top: 2rem;
     text-decoration: none;
-    font-weight: bold; }
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
     .infoContact ul li {
       margin-top: 2rem;
       text-decoration: none;
-      list-style: none; }
+      list-style: none;
+      justify-content: center; }
       .infoContact ul li a {
         text-decoration: none;
-        font-size: 1.5rem; }
+        font-size: 2.5rem;
+        justify-content: center; }
         .infoContact ul li a .boldInfo {
           margin-bottom: 2rem;
           font-weight: bold;
-          font-size: 2rem; }
+          font-size: 2.5rem !important;
+          justify-content: center;
+          color: lightblue; }
           .infoContact ul li a .boldInfo .principalContact {
             font-size: 2rem;
             display: inline-block;
@@ -710,7 +769,7 @@ body {
 
 .my-button {
   position: fixed;
-  right: 0px;
+  right: 10px;
   bottom: 110px;
   width: 70px;
   height: 70px;
@@ -751,6 +810,44 @@ body {
 /*MEDIA QUERY*/
 /*MEDIA QUERY NUESTRA EMPRESA*/
 @media (min-width: 320px) and (max-width: 700px) {
+  /*index
+
+  .bodyIndex{
+    min-width: 320px;
+    max-width: 700px;
+
+    .mainIndex{
+      min-width: 320px;
+      max-width: 700px;
+    }
+  
+  }
+
+  .graphh{
+    margin-right:4rem;
+}
+
+.divCanvas{
+  min-width: 320px;
+    height: 200px;
+    width: 50%;
+    max-height: 600px;
+    margin: 0 auto;
+}
+    .canvass{
+        height: 380px;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .table-responsive{
+      width: 95%;
+  }
+
+  #myCarousel{
+    min-width: 320px;
+    max-width: 700px;
+  }*/
   /* nuestra empresa */
   .bodyNuestraEmpresa {
     width: 100%; }
@@ -789,9 +886,8 @@ body {
     margin-bottom: 1rem; }
   .divVideo {
     height: 250px;
-    width: 80%;
-    max-height: 5000px;
-    width: 100%; }
+    width: 100%;
+    max-height: 5000px; }
   .divVideo iframe {
     height: 50px;
     max-height: 200px;
@@ -868,7 +964,11 @@ body {
   .obras1 img {
     object-fit: cover; }
   .obras2 img {
-    object-fit: cover; } }
+    object-fit: cover; }
+  .footerGrid {
+    min-width: 320px;
+    max-width: 700px;
+    width: 100%; } }
 
 /* cierro media query innovaciones */
 /* media tablet a desktop */
@@ -902,9 +1002,12 @@ body {
     margin-left: 10rem;
     width: 39%;
     height: auto;
-    background: #0b486b;
-    background: -webkit-linear-gradient(to right, #f56217, #0b486b);
-    background: linear-gradient(to right, #f56217, #0b486b); }
+    background: #fffc00;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #fece18);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #fece18);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
     .obras1 .galeria2023:hover .imgInnovaciones {
       -webkit-transform: scale(1.3);
       transform: scale(1.3);
@@ -931,9 +1034,12 @@ body {
     margin-left: 2rem;
     width: 39%;
     height: auto;
-    background: #0b486b;
-    background: -webkit-linear-gradient(to left, #f56217, #0b486b);
-    background: linear-gradient(to left, #f56217, #0b486b); }
+    background: #fffc00;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ffffff, #fece18);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ffffff, #fece18);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
     .obras2 .galeria2024:hover .imgInnovaciones {
       -webkit-transform: scale(1.3);
       transform: scale(1.3);
@@ -944,9 +1050,9 @@ body {
     width: 500px;
     height: 300px;
     background-size: cover;
-    object-fit: cover; }
-  /* cierro innovaciones */ }
+    object-fit: cover; } }
 
+/* cierro innovaciones */
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem; } }
@@ -1015,3 +1121,6 @@ body {
 
 /*cierro media tablet desktop nuestra empresa*/
 /*cierro media querys*/
+@media screen and (max-width: 1024px) {
+  .sectionBC {
+    display: none; } }

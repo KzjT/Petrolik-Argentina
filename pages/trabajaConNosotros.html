@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head><!-- head -->
+<head>
+    <!-- head -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +12,7 @@
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="shortcut icon" href="../img/ggg.jpg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    
+
     <title>Trabaja con Nosotros</title>
 
 </head><!-- cierro header -->
@@ -107,7 +108,9 @@
 
             <input type="email" class="control" name="email" id="email" placeholder="Ingrese su email">
 
-            <input type="text" class="control" name="mensaje" id="mensaje" placeholder="Ingrese su mensaje">
+            <textarea class="control textAreaContactForm" name="mensaje" id="mensaje" cols="1000" rows="10"
+                placeholder="Deje su mensaje aqui"></textarea>
+
 
             <button class="boton-contact animate__animated animate__wobble">Enviar</button>
 
@@ -121,11 +124,23 @@
 
             <ul class=" listContactBold">
 
-            <li class="boldInfo">Edificio Petrolik Argentina</li>
+                <li class="boldInfo">
 
-            <li class="boldInfo">Allende 3222(C1584BBA)</li>
+                    <p>Edificio Petrolik Argentina</p>
 
-            <li class="boldInfo">Ciudad de Buenos Aires, Argentina </li>
+                </li>
+
+                <li class="boldInfo">
+
+                    <p>Allende 3222(C1584BBA)</p>
+
+                </li>
+
+                <li class="boldInfo">
+
+                    <p> Ciudad de Buenos Aires, Argentina</p>
+
+                </li>
 
             </ul>
 
@@ -166,28 +181,30 @@
             <footer class="py-5">
                 <div class="row">
                     <div class="col-6 col-md-2 mb-3">
-                        <h3>Legales y FAQs</h5>
-                            <ul class="nav flex-column">
-                                <li class="nav-item mb-2"><a href="../index.html"
-                                        class="nav-link p-0 text-muted">Inicio</a>
-                                </li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terminos y
-                                        Condiciones</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Legales</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-                            </ul>
+                        <h3>Legales y FAQs</h3>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2 footerText"><a href="../index.html"
+                                    class="nav-link p-0 text-muted">Inicio</a></li>
+                            <li class="nav-item mb-2 footerText"><a href="#" class="nav-link p-0 text-muted">Terminos y
+                                    Condiciones</a></li>
+                            <li class="nav-item mb-2 footerText"><a href="#" class="nav-link p-0 text-muted">Legales</a>
+                            </li>
+                            <li class="nav-item mb-2 footerText"><a href="#" class="nav-link p-0 text-muted">FAQs</a>
+                            </li>
+                            <li class="nav-item mb-2 footerText"><a href="#" class="nav-link p-0 text-muted">About</a>
+                            </li>
+                        </ul>
                     </div>
 
                     <div class="col-6 col-md-2 mb-3">
                         <h3>Prensa y contacto</h3>
                         <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Telefono Comercial</a>
-                            </li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Correo electronico</a>
-                            </li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Gerencia Comercial</a>
-                            </li>
+                            <li class="nav-item mb-2 footerText"><a href="#" class="nav-link p-0 text-muted">Telefono
+                                    Comercial</a></li>
+                            <li class="nav-item mb-2 footerText"><a href="#" class="nav-link p-0 text-muted">Correo
+                                    electronico</a></li>
+                            <li class="nav-item mb-2 footerText"><a href="#" class="nav-link p-0 text-muted">Gerencia
+                                    Comercial</a></li>
                         </ul>
                     </div>
 
@@ -207,19 +224,19 @@
 
                 <div
                     class="d-flex flex-column flex-sm-row justify-content-between align-content-center py-4 my-4 border-top">
-                    <p class="footerCopy">&copy; 2022 Petrolik, Inc. Todos los derechos resevados.</p>
+                    <p class="footerCopy">&copy; 2022 Petrolik, Inc. Todos los derechos reservados.</p>
                     <ul class="list-unstyled d-flex">
                         <li class="ms-3"><a class="link-dark" href="https://www.twitter.com/petrolik"
                                 target="_blank"><svg class="bi logoFooter">
                                     <use xlink:href="#twitter" />
                                 </svg></a></li>
                         <li class="ms-3"><a class="link-dark" href="https://www.instagram.com/petrolik"
-                                target="_blank""><svg class=" bi logoFooter">
-                                <use xlink:href="#instagram" />
+                                target="_blank"><svg class=" bi logoFooter">
+                                    <use xlink:href="#instagram" />
                                 </svg>
                             </a></li>
                         <li class="ms-3"><a class="link-dark" href="https://www.facebook.com/petrolik"
-                                target="_blank"><svg class="bi logoFooter"">
+                                target="_blank"><svg class="bi logoFooter">
                                     <use xlink:href=" #facebook" />
                                 </svg></a></li>
                     </ul>

@@ -30,22 +30,25 @@
     #db8441,
     #d1ab1e
   );
+  .galeria2024 {
+    margin-top: 3rem;
 
-  .galeria2024:hover .imgInnovaciones {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-    cursor: pointer;
-    filter: opacity(0.5);
+    &:hover .imgInnovaciones {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+      cursor: pointer;
+      filter: opacity(0.5);
 
-    .h2divsInno {
-      font-size: 1.7rem;
-      font-weight: bold;
-      margin-top: 3rem;
+      .h2divsInno {
+        font-size: 1.7rem;
+        font-weight: bold;
+        margin-top: 3rem;
+      }
     }
   }
 }
-
 .obras2 img {
   width: 500px;
   height: 300px;
+  object-fit: cover;
 }

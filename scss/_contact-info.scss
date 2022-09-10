@@ -15,34 +15,41 @@
 .infoContact {
   background-color: transparent;
   vertical-align: middle;
-  width: 300px;
+  width: 70%;
   padding: 30px;
   margin: auto;
   margin-top: 100px;
   border-radius: 4px;
   font-family: "Roboto", sans-serif;
   color: black;
-  box-shadow: 7px 13px 37px #000;
   list-style: none;
 
   ul {
     margin-top: 2rem;
     text-decoration: none;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     li {
       margin-top: 2rem;
       text-decoration: none;
       list-style: none;
+      justify-content: center;
 
       a {
         text-decoration: none;
-        font-size: 1.5rem;
+        font-size: 2.5rem;
+        justify-content: center;
 
         .boldInfo {
           margin-bottom: 2rem;
           font-weight: bold;
-          font-size: 2rem;
+          font-size: 2.5rem !important;
+          justify-content: center;
+          color: lightblue;
 
           .principalContact {
             font-size: 2rem;
@@ -63,7 +70,7 @@
 
 .my-button {
   position: fixed;
-  right: 0px;
+  right: 10px;
   bottom: 110px;
   width: 70px;
   height: 70px;

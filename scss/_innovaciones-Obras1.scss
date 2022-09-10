@@ -25,38 +25,29 @@
   margin-left: 15rem;
   width: 40%;
   height: auto;
-  background-image: linear-gradient(
-    to left bottom,
-    #fece18,
-    #ff9b4a,
-    #ed776d,
-    #b9657d,
-    #7d5a74,
-    #795870,
-    #75566d,
-    #715469,
-    #a15c6e,
-    #c9695f,
-    #db8441,
-    #d1ab1e
-  );
+  background: linear-gradient(to right, #ffe000, #799f0c);
 
-  .galeria2023:hover .imgInnovaciones {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-    cursor: pointer;
-    filter: opacity(0.5);
+  .galeria2023 {
+    margin-top: 3rem;
 
-    .h2divsInno {
-      font-size: 1.7rem;
-      font-weight: bold;
-      margin-top: 3rem;
+    &:hover .imgInnovaciones {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+      cursor: pointer;
+      filter: opacity(0.5);
+
+      .h2divsInno {
+        font-size: 1.7rem;
+        font-weight: bold;
+        margin-top: 3rem;
+      }
     }
   }
 }
 .obras1 img {
   width: 500px;
   height: 300px;
+  object-fit: cover;
 }
 
 .h2Proyectos {
@@ -64,9 +55,12 @@
   font-size: 3rem;
   text-decoration: underline;
   display: flex;
+  margin-top: 2rem;
 }
 
 .h2InnoFirst {
   font-size: 3.2rem;
   font-weight: bold;
+  text-orientation: sideways;
+  margin-top: 3rem;
 }

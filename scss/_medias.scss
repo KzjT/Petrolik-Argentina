@@ -1,7 +1,46 @@
 /*MEDIA QUERY*/ /*MEDIA QUERY*/ /*MEDIA QUERY*/ /*MEDIA QUERY*/ /*MEDIA QUERY*/ /*MEDIA QUERY*/ /*MEDIA QUERY*/ /*MEDIA QUERY*/ /*MEDIA QUERY*/ /*MEDIA QUERY*/ /*MEDIA QUERY*/ /*MEDIA QUERY*/ /*MEDIA QUERY*/ /*MEDIA QUERY*/ /*MEDIA QUERY*/ /*MEDIA QUERY*/ /*MEDIA QUERY*/ /*MEDIA QUERY*/
 
 /*MEDIA QUERY NUESTRA EMPRESA*/
+
 @media (min-width: 320px) and (max-width: 700px) {
+  /*index
+
+  .bodyIndex{
+    min-width: 320px;
+    max-width: 700px;
+
+    .mainIndex{
+      min-width: 320px;
+      max-width: 700px;
+    }
+  
+  }
+
+  .graphh{
+    margin-right:4rem;
+}
+
+.divCanvas{
+  min-width: 320px;
+    height: 200px;
+    width: 50%;
+    max-height: 600px;
+    margin: 0 auto;
+}
+    .canvass{
+        height: 380px;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .table-responsive{
+      width: 95%;
+  }
+
+  #myCarousel{
+    min-width: 320px;
+    max-width: 700px;
+  }*/
   /* nuestra empresa */
 
   @mixin MediaNuestraEmpresa123 {
@@ -57,9 +96,8 @@
 
   .divVideo {
     height: 250px;
-    width: 80%;
-    max-height: 5000px;
     width: 100%;
+    max-height: 5000px;
   }
   .divVideo iframe {
     height: 50px;
@@ -107,9 +145,6 @@
 
   /* cierro media query nuestra empresa */
 
-
-
-
   /* media query contacto */
 
   .bodyContact {
@@ -151,9 +186,6 @@
 
   /* cierro media query contacto */
 
-
-
-
   /* media query innovaciones */
 
   .bodyInnovaciones {
@@ -182,11 +214,16 @@
   }
 
   .obras2 img {
-    object-fit:cover;
+    object-fit: cover;
+  }
+
+  .footerGrid {
+    min-width: 320px;
+    max-width: 700px;
+    width: 100%;
   }
 }
 /* cierro media query innovaciones */
-
 
 /* media tablet a desktop */
 /* media tablet a desktop */
@@ -221,9 +258,17 @@
     margin-left: 10rem;
     width: 39%;
     height: auto;
-    background: #0b486b;
-    background: -webkit-linear-gradient(to right, #f56217, #0b486b);
-    background: linear-gradient(to right, #f56217, #0b486b);
+    background: #fffc00; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #ffffff,
+      $color-base
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #ffffff,
+      $color-base
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     .galeria2023:hover .imgInnovaciones {
       -webkit-transform: scale(1.3);
@@ -258,9 +303,17 @@
     margin-left: 2rem;
     width: 39%;
     height: auto;
-    background: #0b486b;
-    background: -webkit-linear-gradient(to left, #f56217, #0b486b);
-    background: linear-gradient(to left, #f56217, #0b486b);
+    background: #fffc00; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to left,
+      #ffffff,
+      $color-base
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to left,
+      #ffffff,
+      $color-base
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     .galeria2024:hover .imgInnovaciones {
       -webkit-transform: scale(1.3);
@@ -278,10 +331,8 @@
     background-size: cover;
     object-fit: cover;
   }
-
-  /* cierro innovaciones */
-
-  }
+}
+/* cierro innovaciones */
 
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
@@ -289,100 +340,101 @@
   }
 }
 
-
-
-
 /*media tablet a desktop nuestra empresa*/
 
-@media (min-width: 700px) and (max-width: 1400px){ 
+@media (min-width: 700px) and (max-width: 1400px) {
+  @mixin MediaNuestraEmpresa123 {
+    max-width: 80%;
+    max-height: 5000px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    max-height: auto;
+  }
 
+  @mixin MediaNuestraEmpresaABC {
+    max-width: 90%;
+    max-height: 5000px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
 
-@mixin MediaNuestraEmpresa123 {
-  max-width: 80%;
-  max-height: 5000px;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-content: center;
-  justify-content: center;
-  max-height: auto;
-}
+  .bodyNuestraEmpresa {
+    width: 100%;
+  }
 
-@mixin MediaNuestraEmpresaABC {
-  max-width: 90%;
-  max-height: 5000px;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-content: center;
-  justify-content: center;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
+  .mainNuestra {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
 
-.bodyNuestraEmpresa {
-  width: 100%;
-}
+  .sectionNuestraEmpresa_1,
+  .sectionNuestraEmpresa_2,
+  .sectionNuestraEmpresa_3 {
+    @include MediaNuestraEmpresa123;
+  }
 
-.mainNuestra {
-  width: 100%;
-  display: flex;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 0 auto;
-}
+  .sectionNuestraEmpresa_a,
+  .sectionNuestraEmpresa_b,
+  .sectionNuestraEmpresa_c {
+    @include MediaNuestraEmpresaABC;
+  }
+  .divVideo {
+    height: 400px;
+    width: 90%;
+    max-height: 5000px;
+    width: 100%;
+  }
+  .divVideo iframe {
+    height: 30px;
+    max-height: 350px;
+    width: 100%;
+  }
 
-.sectionNuestraEmpresa_1,
-.sectionNuestraEmpresa_2,
-.sectionNuestraEmpresa_3 {
-  @include MediaNuestraEmpresa123;
-}
+  .divImg-NuestraEmpresa {
+    height: auto;
+    width: 100%;
+  }
 
-.sectionNuestraEmpresa_a,
-.sectionNuestraEmpresa_b,
-.sectionNuestraEmpresa_c {
-  @include MediaNuestraEmpresaABC;
-}
-.divVideo {
-  height: 400px;
-  width: 90%;
-  max-height: 5000px;
-  width: 100%;
-}
-.divVideo iframe {
-  height:30px;
-  max-height: 350px;
-  width: 100%;
-}
+  .divImg-NuestraEmpresa img {
+    height: 100px;
+    width: 100%;
+  }
 
-.divImg-NuestraEmpresa {
-  height: auto;
-  width: 100%;
-}
+  .img3 img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+  }
 
-.divImg-NuestraEmpresa img {
-  height: 100px;
-  width: 100%;
-}
-
-.img3 img {
-  height: 350px;
-  width: 100%;
-  object-fit: cover;
-}
-
-.img4 img {
-  height: 350px;
-  width: 100%;
-  object-fit: cover;
-  margin-bottom: 1rem;
-}
+  .img4 img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
 }
 
 /*cierro media tablet desktop nuestra empresa*/
 
 /*cierro media querys*/
+
+@media screen and (max-width: 1024px) {
+  .sectionBC {
+    display: none;
+  }
+}

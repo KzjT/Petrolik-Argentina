@@ -8,6 +8,7 @@
   .conteinerLogo {
     width: 80px;
     height: 80px;
+    font-weight: bold;
   }
 }
 
@@ -15,8 +16,8 @@
   padding-left: 4em;
   margin-left: 2rem;
 
-  a {
-    font-weight: 500;
+  & a {
+    font-weight: 500 !important;
     text-decoration: none;
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;

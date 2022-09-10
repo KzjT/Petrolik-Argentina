@@ -4,7 +4,7 @@
   font-family: "ubuntu";
   font-style: normal;
   font-display: swap;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   color: #444;
   font-weight: 600;
   margin-bottom: 4rem;
@@ -14,11 +14,12 @@
   @extend .divParra;
   margin-top: 2rem;
   margin-bottom: 0rem;
+  font-size: 1.8rem;
 }
 
 .parrafo-sustentable {
   @extend .divParra;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 /*cierro extends parrafos*/
