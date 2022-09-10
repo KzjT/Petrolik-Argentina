@@ -138,7 +138,7 @@ body {
 
 .footerCopy {
   font-weight: bold;
-  font-size: 2rem; }
+  font-size: 1.6rem; }
 
 .logoFooter {
   width: 34px;
@@ -146,7 +146,7 @@ body {
 
 .footerText a {
   font-size: bold;
-  font-size: 1.4rem; }
+  font-size: 1.3rem; }
 
 /*cierro footer*/
 /*map*/
@@ -714,23 +714,22 @@ body {
 
 /*cierro contact-form*/
 /*abro contact info*/
-.bodyContact {
-  background: linear-gradient(to left, #f5eeb7, #fece18); }
-  .bodyContact .mainContact {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 1.5rem;
-    width: 100%; }
+.mainContact {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+  width: 100%; }
 
 .infoContact {
   background-color: transparent;
   vertical-align: middle;
-  width: 70%;
-  padding: 30px;
-  margin: auto;
-  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
   border-radius: 4px;
   font-family: "Roboto", sans-serif;
   color: black;
@@ -746,16 +745,19 @@ body {
     .infoContact ul li {
       margin-top: 2rem;
       text-decoration: none;
+      display: flex;
+      align-content: center;
+      justify-content: center;
       list-style: none;
-      justify-content: center; }
+      justify-content: center;
+      font-size: 2rem; }
       .infoContact ul li a {
         text-decoration: none;
-        font-size: 2.5rem;
+        font-size: 2rem;
         justify-content: center; }
         .infoContact ul li a .boldInfo {
           margin-bottom: 2rem;
           font-weight: bold;
-          font-size: 2.5rem !important;
           justify-content: center;
           color: lightblue; }
           .infoContact ul li a .boldInfo .principalContact {
@@ -769,7 +771,7 @@ body {
 
 .my-button {
   position: fixed;
-  right: 10px;
+  right: 0px;
   bottom: 110px;
   width: 70px;
   height: 70px;
@@ -782,7 +784,7 @@ body {
   align-content: center;
   justify-content: center;
   width: 100%;
-  height: auto;
+  height: 300px;
   margin-top: 3rem;
   margin-bottom: 2rem; }
   .map .mapp {
@@ -923,29 +925,40 @@ body {
   /* media query contacto */
   .bodyContact {
     min-width: 320px;
-    max-width: 700px; }
+    width: 100%; }
     .bodyContact .mainContact {
       min-width: 320px;
-      max-width: 700px;
-      max-width: 100%; }
+      width: 100%; }
+  .contact-profile {
+    padding: 0px;
+    margin: 0 auto;
+    width: 250px;
+    width: 80%; }
   .divForm {
-    width: 80%;
-    margin: 0 auto; }
+    width: 80%; }
   .infoContact {
     height: auto;
-    width: 80%; }
-  .map {
+    width: 100%;
     display: flex;
-    min-width: 320px;
-    align-content: center;
-    justify-content: center;
-    width: 300px;
-    height: auto;
-    margin-top: 3rem;
-    margin-bottom: 2rem; }
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0; }
+  .map {
+    width: 80%;
+    height: 400px; }
     .map .mapp {
-      width: 220px;
-      height: auto; }
+      width: 200px; }
+  .wpp {
+    width: 70px;
+    max-width: 70px; }
+    .wpp .my-button {
+      position: fixed;
+      right: 0;
+      bottom: 110px;
+      width: 60px;
+      height: 60px;
+      z-index: 100; }
   /* cierro media query contacto */
   /* media query innovaciones */
   .bodyInnovaciones {
