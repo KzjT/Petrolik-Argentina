@@ -25,16 +25,24 @@
   margin-left: 15rem;
   width: 40%;
   height: auto;
-  background: linear-gradient(to right, #ffe000, #799f0c);
+  background: #fffc00; 
+  background: -webkit-linear-gradient(
+    to left,
+    #ffffff,
+    $color-base
+  );
+  background: linear-gradient(
+    to left,
+    #ffffff,
+    $color-base
+  ); 
 
   .galeria2023 {
     margin-top: 3rem;
 
     &:hover .imgInnovaciones {
-      -webkit-transform: scale(1.2);
-      transform: scale(1.2);
-      cursor: pointer;
-      filter: opacity(0.5);
+      transition: all 0.2s cubic-bezier(0.42, 0, 0, 2.31);
+    
 
       .h2divsInno {
         font-size: 1.7rem;
@@ -48,6 +56,9 @@
   width: 500px;
   height: 300px;
   object-fit: cover;
+  transition:all .5s ease-in-out;
+ 
+
 }
 
 .h2Proyectos {

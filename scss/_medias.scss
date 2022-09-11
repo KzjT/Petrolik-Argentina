@@ -4,22 +4,18 @@
 
 @media (min-width: 320px) and (max-width: 700px) {
   /*index
-
   .bodyIndex{
     min-width: 320px;
     max-width: 700px;
-
     .mainIndex{
       min-width: 320px;
       max-width: 700px;
     }
   
   }
-
   .graphh{
     margin-right:4rem;
 }
-
 .divCanvas{
   min-width: 320px;
     height: 200px;
@@ -32,11 +28,9 @@
         width: 50%;
         margin: 0 auto;
     }
-
     .table-responsive{
       width: 95%;
   }
-
   #myCarousel{
     min-width: 320px;
     max-width: 700px;
@@ -227,17 +221,36 @@
 
   .obras1 img {
     object-fit: cover;
+    transition: all 0.5s ease-in-out;
   }
 
   .obras2 img {
     object-fit: cover;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .galeria2024 {
+    margin-top: 3rem;
   }
 
-  .footerGrid {
-    min-width: 320px;
-    max-width: 700px;
-    width: 100%;
+  .galeria2023:hover .imgInnovaciones {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+
   }
+
+  .galeria2024:hover .imgInnovaciones {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: all 0.5s ease-in-out;
+    
+  }
+
+  .imgInnovaciones{
+    transition: all 0.5s ease-in-out;
+  }
+
 }
 /* cierro media query innovaciones */
 
@@ -274,26 +287,16 @@
     margin-left: 10rem;
     width: 39%;
     height: auto;
-    background: #fffc00; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to right,
-      #ffffff,
-      $color-base
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to right,
-      #ffffff,
-      $color-base
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #fffc00;
+    background: -webkit-linear-gradient(to right, #ffffff, $color-base);
+    background: linear-gradient(to right, #ffffff, $color-base);
 
     .galeria2023:hover .imgInnovaciones {
       -webkit-transform: scale(1.3);
       transform: scale(1.3);
       cursor: pointer;
+      transition: all 0.4s cubic-bezier(0.42, 0, 0, 2.31);
 
-      .galeria2023:hover .imgInnovaciones {
-        filter: opacity(0.5);
-      }
     }
   }
 
@@ -302,6 +305,7 @@
     height: 300px;
     background-size: cover;
     object-fit: cover;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0, 2.31);
   }
 
   .obras2 {
@@ -319,25 +323,17 @@
     margin-left: 2rem;
     width: 39%;
     height: auto;
-    background: #fffc00; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to left,
-      #ffffff,
-      $color-base
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to left,
-      #ffffff,
-      $color-base
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #fffc00;
+    background: -webkit-linear-gradient(to left, #ffffff, $color-base);
+    background: linear-gradient(to left, #ffffff, $color-base);
 
     .galeria2024:hover .imgInnovaciones {
-      -webkit-transform: scale(1.3);
       transform: scale(1.3);
-      cursor: pointer;
+      -webkit-transform: scale(1.3);
+      transition: all 0.4s cubic-bezier(0.42, 0, 0, 2.31);
 
       .galeria2024:hover .imgInnovaciones {
-        filter: opacity(0.5);
+        transition: all 0.4s cubic-bezier(0.42, 0, 0, 2.31);
       }
     }
   }
@@ -346,7 +342,9 @@
     height: 300px;
     background-size: cover;
     object-fit: cover;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0, 2.31);
   }
+  
 }
 /* cierro innovaciones */
 
