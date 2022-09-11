@@ -3,12 +3,10 @@
   ul li a {
     font-weight: bold;
     color: black;
+    justify-content: space-between;
   }
 }
 
-.link-dark {
-  margin-left: 5rem;
-}
 .footerCopy {
   font-weight: bold;
   font-size: 1.6rem;
@@ -22,5 +20,11 @@
 .footerText a {
   font-size: bold;
   font-size: 1.3rem;
+  margin-left: 5rem;
+}
+
+.footerLi a {
+  justify-content: space-between;
+  margin-left: 5rem;
 }
 /*cierro footer*/

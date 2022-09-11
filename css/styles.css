@@ -11,9 +11,6 @@ body {
 html {
   font-size: 62.5%; }
 
-a {
-  font-weight: 900; }
-
 body {
   background: linear-gradient(to left, #f5eeb7, #fece18); }
 
@@ -134,10 +131,8 @@ body {
 /*abro footer*/
 .footerGrid ul li a {
   font-weight: bold;
-  color: black; }
-
-.link-dark {
-  margin-left: 5rem; }
+  color: black;
+  justify-content: space-between; }
 
 .footerCopy {
   font-weight: bold;
@@ -149,7 +144,12 @@ body {
 
 .footerText a {
   font-size: bold;
-  font-size: 1.3rem; }
+  font-size: 1.3rem;
+  margin-left: 5rem; }
+
+.footerLi a {
+  justify-content: space-between;
+  margin-left: 5rem; }
 
 /*cierro footer*/
 /*map*/
@@ -510,6 +510,14 @@ body {
 .table-responsive {
   width: 100%; }
 
+.thread-index tr td {
+  font-weight: bold;
+  font-size: 1.2rem; }
+
+.thread-index tr th {
+  font-weight: bold;
+  font-size: 1.2rem; }
+
 /*abro section C - index*/
 .sectionC {
   background-color: transparent;
@@ -712,7 +720,7 @@ body {
       font-size: 2rem; }
 
 .textAreaContactForm {
-  height: 100px;
+  height: 200px;
   max-height: 500px; }
 
 /*cierro contact-form*/
@@ -815,39 +823,10 @@ body {
 /*MEDIA QUERY*/
 /*MEDIA QUERY NUESTRA EMPRESA*/
 @media (min-width: 320px) and (max-width: 700px) {
-  /*index
-  .bodyIndex{
-    min-width: 320px;
-    max-width: 700px;
-    .mainIndex{
-      min-width: 320px;
-      max-width: 700px;
-    }
-  
-  }
-  .graphh{
-    margin-right:4rem;
-}
-.divCanvas{
-  min-width: 320px;
-    height: 200px;
-    width: 50%;
-    max-height: 600px;
-    margin: 0 auto;
-}
-    .canvass{
-        height: 380px;
-        width: 50%;
-        margin: 0 auto;
-    }
-    .table-responsive{
-      width: 95%;
-  }
-  #myCarousel{
-    min-width: 320px;
-    max-width: 700px;
-  }*/
   /* nuestra empresa */
+  .footerLi a {
+    justify-content: space-between;
+    margin-left: 1.3rem; }
   .bodyNuestraEmpresa {
     width: 100%; }
   .mainNuestra {
@@ -932,7 +911,8 @@ body {
     width: 250px;
     width: 80%; }
   .divForm {
-    width: 80%; }
+    width: 90%;
+    margin-top: 5rem; }
   .infoContact {
     height: auto;
     width: 100%;
@@ -942,7 +922,7 @@ body {
     padding: 0;
     margin: 0; }
   .map {
-    width: 80%;
+    width: 90%;
     height: 400px; }
     .map .mapp {
       width: 200px; }
