@@ -19,6 +19,8 @@
 @mixin nuestraEmpresa123 {
   max-width: 40%;
   max-height: 5000px;
+  width: 800px;
+  height: 600px;
   padding-left: 1rem;
   display: flex;
   flex-wrap: wrap;
@@ -28,7 +30,7 @@
   background-color: transparent;
   margin-right: 2rem;
   margin-left: 1rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .sectionNuestraEmpresa_1 {
@@ -48,7 +50,7 @@
   max-height: 5000px;
   padding-left: 1rem;
   display: flex;
-  width: auto;
+  width: 100%;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -66,13 +68,13 @@
 
 .sectionNuestraEmpresa_b {
   @include nuestraEmpresaABC;
-  margin-top: 7rem;
+  margin-top: 6rem;
 }
 
 .sectionNuestraEmpresa_c {
   @include nuestraEmpresaABC;
   margin-bottom: 7rem;
-  margin-top: 10rem;
+  margin-top: 3rem;
 }
 
 /*cierro nuestra empresa mixin*/
@@ -114,6 +116,7 @@
 
 .sustenta1 {
   @include sustentaLargo;
+  margin-top: 10rem;
 }
 
 .sustenta2 {

@@ -12,6 +12,13 @@
     margin-bottom: 2rem;
     font-size: 3.2rem;
     border-bottom: 1.3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    width: 100%;
+    text-justify:auto;
   }
 }
 
@@ -21,7 +28,8 @@ width: 100%;
         & img-fluid{
           width: 100%;
           object-fit:cover;
-          height: 350px;
+          height: 300px;
+          max-height: 300px;
         }
       }
 

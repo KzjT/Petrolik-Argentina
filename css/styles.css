@@ -118,11 +118,20 @@ body {
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: background-size 0.3s;
-    font-size: 1.5rem; }
+    font-size: 2rem;
+    font-family: "Teko", sans-serif; }
     .real-nav li a:hover {
       background-size: 100% 2px; }
       .real-nav li a:hover:focus {
         background-size: 100% 2px; }
+
+.collapseHeader {
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center; }
 
 .animate__animated.animate__bounce {
   --animate-duration: 1.5s; }
@@ -179,6 +188,8 @@ body {
 .sectionNuestraEmpresa_1 {
   max-width: 40%;
   max-height: 5000px;
+  width: 800px;
+  height: 600px;
   padding-left: 1rem;
   display: flex;
   flex-wrap: wrap;
@@ -188,11 +199,13 @@ body {
   background-color: transparent;
   margin-right: 2rem;
   margin-left: 1rem;
-  margin-top: 4rem; }
+  margin-top: 2rem; }
 
 .sectionNuestraEmpresa_2 {
   max-width: 40%;
   max-height: 5000px;
+  width: 800px;
+  height: 600px;
   padding-left: 1rem;
   display: flex;
   flex-wrap: wrap;
@@ -202,11 +215,13 @@ body {
   background-color: transparent;
   margin-right: 2rem;
   margin-left: 1rem;
-  margin-top: 4rem; }
+  margin-top: 2rem; }
 
 .sectionNuestraEmpresa_3 {
   max-width: 40%;
   max-height: 5000px;
+  width: 800px;
+  height: 600px;
   padding-left: 1rem;
   display: flex;
   flex-wrap: wrap;
@@ -216,14 +231,14 @@ body {
   background-color: transparent;
   margin-right: 2rem;
   margin-left: 1rem;
-  margin-top: 4rem; }
+  margin-top: 2rem; }
 
 .sectionNuestraEmpresa_a {
   max-width: 50%;
   max-height: 5000px;
   padding-left: 1rem;
   display: flex;
-  width: auto;
+  width: 100%;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -239,7 +254,7 @@ body {
   max-height: 5000px;
   padding-left: 1rem;
   display: flex;
-  width: auto;
+  width: 100%;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -249,14 +264,14 @@ body {
   margin-right: 1rem;
   margin-bottom: 3rem;
   margin-top: 4rem;
-  margin-top: 7rem; }
+  margin-top: 6rem; }
 
 .sectionNuestraEmpresa_c {
   max-width: 50%;
   max-height: 5000px;
   padding-left: 1rem;
   display: flex;
-  width: auto;
+  width: 100%;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -267,7 +282,7 @@ body {
   margin-bottom: 3rem;
   margin-top: 4rem;
   margin-bottom: 7rem;
-  margin-top: 10rem; }
+  margin-top: 3rem; }
 
 /*cierro nuestra empresa mixin*/
 .sustenta1 {
@@ -284,7 +299,8 @@ body {
   margin-left: 1rem;
   margin-right: 1rem;
   margin-bottom: 3rem;
-  box-shadow: 10px 2px 7px; }
+  box-shadow: 10px 2px 7px;
+  margin-top: 10rem; }
 
 .sustenta2 {
   max-width: 70vh;
@@ -379,10 +395,10 @@ body {
   font-size: 1.4rem;
   color: #444;
   font-weight: 600;
-  margin-bottom: 4rem; }
+  margin-bottom: rem; }
 
 .parra-nuestraEmpresa {
-  margin-top: 2rem;
+  margin-top: rem;
   margin-bottom: 0rem;
   font-size: 1.8rem; }
 
@@ -543,18 +559,25 @@ body {
       width: 800px;
       height: 600px;
       margin-top: 4rem;
-      margin-bottom: 1rem; }
+      margin-bottom: 1rem;
+      box-shadow: 10px 5px 5px black; }
 
 .divTittleNuestra {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-content: center; }
+  align-content: center;
+  margin-top: 8rem;
+  margin-bottom: 0rem; }
   .divTittleNuestra .h2-nuestraEmpresa2 {
     font-weight: bold;
     font-size: 3rem;
     border-top: 2px solid #fece18;
-    border-bottom: 2px solid #fece18; }
+    border-bottom: 2px solid #fece18;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center; }
 
 .divImg-NuestraEmpresa {
   max-height: auto; }
@@ -564,7 +587,8 @@ body {
   height: 600px;
   margin-top: 4rem;
   margin-bottom: 1rem;
-  object-fit: cover; }
+  object-fit: cover;
+  box-shadow: 10px 5px 5px black; }
 
 .img4 img {
   width: 800px;
@@ -573,7 +597,8 @@ body {
   margin-bottom: 7rem;
   object-fit: cover;
   align-items: flex-start;
-  align-content: flex-start; }
+  align-content: flex-start;
+  box-shadow: 10px 5px 5px black; }
 
 /*cierro nuestra empresa*/
 /*abro Sustentabilidad*/
@@ -587,14 +612,22 @@ body {
     font-weight: bold;
     margin-bottom: 2rem;
     font-size: 3.2rem;
-    border-bottom: 1.3px solid white; }
+    border-bottom: 1.3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    width: 100%;
+    text-justify: auto; }
 
 .divImgSustantibilidad {
   width: 100%; }
   .divImgSustantibilidad img-fluid {
     width: 100%;
     object-fit: cover;
-    height: 350px; }
+    height: 300px;
+    max-height: 300px; }
 
 .mainInnova {
   font-family: "Teko", sans-serif;
@@ -827,6 +860,18 @@ body {
   .footerLi a {
     justify-content: space-between;
     margin-left: 1.3rem; }
+  .real-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+    .real-nav li a {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-top: 1rem;
+      padding: 0; }
   .bodyNuestraEmpresa {
     width: 100%; }
   .mainNuestra {
@@ -848,7 +893,8 @@ body {
     flex-direction: row;
     align-content: center;
     justify-content: center;
-    max-height: auto; }
+    max-height: auto;
+    height: auto; }
   .sectionNuestraEmpresa_a,
   .sectionNuestraEmpresa_b,
   .sectionNuestraEmpresa_c {
@@ -1075,7 +1121,8 @@ body {
     flex-direction: row;
     align-content: center;
     justify-content: center;
-    max-height: auto; }
+    max-height: auto;
+    height: auto; }
   .sectionNuestraEmpresa_a,
   .sectionNuestraEmpresa_b,
   .sectionNuestraEmpresa_c {

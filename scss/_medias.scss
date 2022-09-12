@@ -10,6 +10,26 @@
     margin-left: 1.3rem;
   }
 
+  .real-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    & li a{
+      font-size: 2rem;
+      font-weight: bold;
+      margin-top: 1rem;
+      padding: 0;
+    }
+
+
+  }
+
+
+
   @mixin MediaNuestraEmpresa123 {
     max-width: 700px;
     max-height: 5000px;
@@ -53,12 +73,14 @@
   .sectionNuestraEmpresa_2,
   .sectionNuestraEmpresa_3 {
     @include MediaNuestraEmpresa123;
+    height: auto;
   }
 
   .sectionNuestraEmpresa_a,
   .sectionNuestraEmpresa_b,
   .sectionNuestraEmpresa_c {
     @include MediaNuestraEmpresaABC;
+
   }
 
   .divVideo {
@@ -369,6 +391,7 @@
   .sectionNuestraEmpresa_2,
   .sectionNuestraEmpresa_3 {
     @include MediaNuestraEmpresa123;
+    height: auto;
   }
 
   .sectionNuestraEmpresa_a,

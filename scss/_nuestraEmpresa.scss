@@ -14,6 +14,7 @@
       height: 600px;
       margin-top: 4rem;
       margin-bottom: 1rem;
+      box-shadow: 10px 5px 5px black;
     }
   }
 }
@@ -23,12 +24,18 @@
   display: flex;
   justify-content: center;
   align-content: center;
+  margin-top: 8rem;
+  margin-bottom: 0rem;
 
   .h2-nuestraEmpresa2 {
     font-weight: bold;
     font-size: 3rem;
     border-top: 2px solid #fece18;
     border-bottom: 2px solid #fece18;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
   }
 }
 .divImg-NuestraEmpresa {
@@ -41,6 +48,7 @@
   margin-top: 4rem;
   margin-bottom: 1rem;
   object-fit: cover;
+  box-shadow: 10px 5px 5px black;
 }
 
 .img4 img {
@@ -51,6 +59,7 @@
   object-fit: cover;
   align-items: flex-start;
   align-content: flex-start;
+  box-shadow: 10px 5px 5px black;
 }
 
 /*cierro nuestra empresa*/
