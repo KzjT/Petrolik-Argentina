@@ -21,7 +21,7 @@ body {
   align-content: center;
   justify-content: center;
   text-shadow: #fece18;
-  margin-top: 5rem;
+  margin-top: 2rem;
   margin-bottom: 0rem;
   font-family: "Teko", sans-serif; }
 
@@ -138,10 +138,12 @@ body {
 
 /*cierro header*/
 /*abro footer*/
-.footerGrid ul li a {
-  font-weight: bold;
-  color: black;
-  justify-content: space-between; }
+.footerGrid ul li {
+  align-items: flex-start; }
+  .footerGrid ul li .footerGrid ul li a {
+    font-weight: bold;
+    color: black;
+    justify-content: space-between; }
 
 .footerCopy {
   font-weight: bold;
@@ -153,12 +155,13 @@ body {
 
 .footerText a {
   font-size: bold;
-  font-size: 1.3rem;
-  margin-left: 5rem; }
+  font-size: 1.3rem; }
 
 .footerLi a {
-  justify-content: space-between;
-  margin-left: 5rem; }
+  display: flex;
+  align-items: initial;
+  justify-content: flex-start;
+  margin-right: 7rem; }
 
 /*cierro footer*/
 /*map*/
@@ -235,7 +238,7 @@ body {
 
 .sectionNuestraEmpresa_a {
   max-width: 50%;
-  max-height: 5000px;
+  max-height: 10000px;
   padding-left: 1rem;
   display: flex;
   width: 100%;
@@ -251,7 +254,7 @@ body {
 
 .sectionNuestraEmpresa_b {
   max-width: 50%;
-  max-height: 5000px;
+  max-height: 10000px;
   padding-left: 1rem;
   display: flex;
   width: 100%;
@@ -268,7 +271,7 @@ body {
 
 .sectionNuestraEmpresa_c {
   max-width: 50%;
-  max-height: 5000px;
+  max-height: 10000px;
   padding-left: 1rem;
   display: flex;
   width: 100%;
@@ -562,13 +565,15 @@ body {
       margin-bottom: 1rem;
       box-shadow: 10px 5px 5px black; }
 
+.divTittleNuestra1 {
+  width: 100%; }
+
 .divTittleNuestra {
   width: 100%;
   display: flex;
   justify-content: center;
   align-content: center;
-  margin-top: 8rem;
-  margin-bottom: 0rem; }
+  margin-top: 10em; }
   .divTittleNuestra .h2-nuestraEmpresa2 {
     font-weight: bold;
     font-size: 3rem;
@@ -593,6 +598,7 @@ body {
 .img4 img {
   width: 800px;
   height: 700px;
+  max-height: 50000px;
   margin-top: 0rem;
   margin-bottom: 7rem;
   object-fit: cover;
@@ -857,9 +863,14 @@ body {
 /*MEDIA QUERY NUESTRA EMPRESA*/
 @media (min-width: 320px) and (max-width: 700px) {
   /* nuestra empresa */
+  .footerLi {
+    width: auto; }
   .footerLi a {
-    justify-content: space-between;
-    margin-left: 1.3rem; }
+    margin: 0 auto;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 1em; }
   .real-nav {
     display: flex;
     flex-direction: column;
@@ -868,6 +879,7 @@ body {
     margin: 0;
     padding: 0; }
     .real-nav li a {
+      display: inline-block;
       font-size: 2rem;
       font-weight: bold;
       margin-top: 1rem;
@@ -926,18 +938,21 @@ body {
     height: 200px;
     width: 100%;
     background-size: cover;
-    object-fit: cover; }
+    object-fit: cover;
+    margin: 0; }
   .img4 img {
     height: 200px;
     width: 100%;
     background-size: cover;
     object-fit: cover;
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    margin: 0; }
   .divTittleNuestra {
     display: flex;
     align-content: center;
     justify-content: center;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    margin-top: 4rem; }
     .divTittleNuestra .h2-nuestraEmpresa2 {
       font-size: 2rem;
       display: flex;

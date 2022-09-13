@@ -5,9 +5,15 @@
 @media (min-width: 320px) and (max-width: 700px) {
   /* nuestra empresa */
 
+.footerLi {
+  width: auto;
+}
   .footerLi a {
-    justify-content: space-between;
-    margin-left: 1.3rem;
+    margin: 0 auto;
+    width: auto;
+   display: flex;
+   justify-content: space-around;
+   padding-right: 1em;
   }
 
   .real-nav{
@@ -19,6 +25,7 @@
     padding: 0;
 
     & li a{
+      display: inline-block;
       font-size: 2rem;
       font-weight: bold;
       margin-top: 1rem;
@@ -87,6 +94,8 @@
     height: 250px;
     width: 100%;
     max-height: 5000px;
+    
+
   }
   .divVideo iframe {
     height: 50px;
@@ -109,6 +118,7 @@
     width: 100%;
     background-size: cover;
     object-fit: cover;
+    margin: 0;
   }
 
   .img4 img {
@@ -117,12 +127,14 @@
     background-size: cover;
     object-fit: cover;
     margin-bottom: 1rem;
+    margin: 0;
   }
   .divTittleNuestra {
     display: flex;
     align-content: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 4rem;
 
     .h2-nuestraEmpresa2 {
       font-size: 2rem;

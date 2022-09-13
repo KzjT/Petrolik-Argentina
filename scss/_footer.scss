@@ -1,9 +1,13 @@
 /*abro footer*/
+.footerGrid ul li{
+align-items: flex-start;
+
 .footerGrid {
   ul li a {
     font-weight: bold;
     color: black;
     justify-content: space-between;
+  }
   }
 }
 
@@ -20,11 +24,12 @@
 .footerText a {
   font-size: bold;
   font-size: 1.3rem;
-  margin-left: 5rem;
 }
 
 .footerLi a {
-  justify-content: space-between;
-  margin-left: 5rem;
+  display:flex;
+  align-items: initial;
+  justify-content: flex-start;
+  margin-right: 7rem;
 }
 /*cierro footer*/
