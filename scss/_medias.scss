@@ -3,8 +3,13 @@
 /*MEDIA QUERY NUESTRA EMPRESA*/
 
 @media (min-width: 320px) and (max-width: 700px) {
-  /* nuestra empresa */
+  /* pagina 404*/
+  .h1404{        
+    font-size: 16px;        
+  }
+/* cierro pagina 404*/
 
+/* footer*/
 .footerLi {
   width: auto;
 }
@@ -15,7 +20,9 @@
    justify-content: space-around;
    padding-right: 1em;
   }
+/* cierro footer*/
 
+/* header*/
   .real-nav{
     display: flex;
     flex-direction: column;
@@ -23,7 +30,7 @@
     width: 100%;
     margin: 0;
     padding: 0;
-
+    
     & li a{
       display: inline-block;
       font-size: 2rem;
@@ -31,12 +38,13 @@
       margin-top: 1rem;
       padding: 0;
     }
-
-
+    
+    
   }
-
-
-
+  /* cierro header*/
+  
+  
+  /* nuestra empresa */
   @mixin MediaNuestraEmpresa123 {
     max-width: 700px;
     max-height: 5000px;
@@ -148,16 +156,6 @@
 
   /* media query contacto */
 
-  .bodyContact {
-    min-width: 320px;
-    width: 100%;
-
-    .mainContact {
-      min-width: 320px;
-      width: 100%;
-    }
-  }
-
   .contact-profile {
     padding: 0px;
     margin: 0 auto;
@@ -207,11 +205,9 @@
   /* media query innovaciones */
 
   .bodyInnovaciones {
-    min-width: 320px;
     max-width: 700px;
 
     .mainInnova {
-      min-width: 320px;
       max-width: 700px;
     }
   }
@@ -259,6 +255,10 @@
 }
 /* cierro media query innovaciones */
 
+
+
+
+
 /* media tablet a desktop */
 /* media tablet a desktop */
 /* media tablet a desktop */
@@ -276,7 +276,7 @@
     margin-bottom: 1.5rem;
     flex-wrap: wrap;
   }
-
+  
   .obras1 {
     padding-left: 1rem;
     display: flex;
@@ -351,11 +351,6 @@
 }
 /* cierro innovaciones */
 
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-  }
-}
 
 /*media tablet a desktop nuestra empresa*/
 
@@ -449,10 +444,22 @@
 
 /*cierro media tablet desktop nuestra empresa*/
 
-/*cierro media querys*/
-
+/* grafico index*/
 @media screen and (max-width: 1024px) {
   .sectionBC {
     display: none;
   }
 }
+/* cierro grafico index*/
+
+
+/* carrousel*/
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+/* cierro carrousel*/
+
+
+  /*cierro media querys*/

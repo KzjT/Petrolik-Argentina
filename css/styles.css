@@ -111,7 +111,7 @@ body {
   padding-left: 4em;
   margin-left: 2rem; }
   .real-nav li a {
-    font-weight: bold !important;
+    font-weight: 500 !important;
     text-decoration: none;
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
@@ -628,12 +628,14 @@ body {
     text-justify: auto; }
 
 .divImgSustantibilidad {
-  width: 100%; }
+  width: 100%;
+  height: auto; }
   .divImgSustantibilidad img-fluid {
     width: 100%;
     object-fit: cover;
     height: 300px;
-    max-height: 300px; }
+    max-height: 300px;
+    background-size: cover; }
 
 .mainInnova {
   font-family: "Teko", sans-serif;
@@ -842,6 +844,37 @@ body {
     height: auto; }
 
 /*cierro contact map*/
+.body404 {
+  background: linear-gradient(to left, #f5eeb7, #fece18);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif; }
+
+.img404 {
+  width: 50%; }
+
+.container404 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center; }
+
+.h1404 {
+  color: black;
+  font-weight: 500;
+  font-size: 30px;
+  padding: 20px; }
+
+.button404 {
+  padding: 13px 30px;
+  border-radius: 15px;
+  border: none;
+  background: #0581f5;
+  color: white; }
+
 /*MEDIA QUERY*/
 /*MEDIA QUERY*/
 /*MEDIA QUERY*/
@@ -862,7 +895,11 @@ body {
 /*MEDIA QUERY*/
 /*MEDIA QUERY NUESTRA EMPRESA*/
 @media (min-width: 320px) and (max-width: 700px) {
-  /* nuestra empresa */
+  /* pagina 404*/
+  .h1404 {
+    font-size: 16px; }
+  /* cierro pagina 404*/
+  /* footer*/
   .footerLi {
     width: auto; }
   .footerLi a {
@@ -871,6 +908,8 @@ body {
     display: flex;
     justify-content: space-around;
     padding-right: 1em; }
+  /* cierro footer*/
+  /* header*/
   .real-nav {
     display: flex;
     flex-direction: column;
@@ -884,6 +923,8 @@ body {
       font-weight: bold;
       margin-top: 1rem;
       padding: 0; }
+  /* cierro header*/
+  /* nuestra empresa */
   .bodyNuestraEmpresa {
     width: 100%; }
   .mainNuestra {
@@ -960,12 +1001,6 @@ body {
       justify-content: center; }
   /* cierro media query nuestra empresa */
   /* media query contacto */
-  .bodyContact {
-    min-width: 320px;
-    width: 100%; }
-    .bodyContact .mainContact {
-      min-width: 320px;
-      width: 100%; }
   .contact-profile {
     padding: 0px;
     margin: 0 auto;
@@ -1000,10 +1035,8 @@ body {
   /* cierro media query contacto */
   /* media query innovaciones */
   .bodyInnovaciones {
-    min-width: 320px;
     max-width: 700px; }
     .bodyInnovaciones .mainInnova {
-      min-width: 320px;
       max-width: 700px; }
   .obras1 {
     width: 80%;
@@ -1109,10 +1142,6 @@ body {
     transition: all 0.4s cubic-bezier(0.42, 0, 0, 2.31); } }
 
 /* cierro innovaciones */
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem; } }
-
 /*media tablet a desktop nuestra empresa*/
 @media (min-width: 700px) and (max-width: 1400px) {
   .bodyNuestraEmpresa {
@@ -1177,7 +1206,16 @@ body {
     margin-bottom: 1rem; } }
 
 /*cierro media tablet desktop nuestra empresa*/
-/*cierro media querys*/
+/* grafico index*/
 @media screen and (max-width: 1024px) {
   .sectionBC {
     display: none; } }
+
+/* cierro grafico index*/
+/* carrousel*/
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem; } }
+
+/* cierro carrousel*/
+/*cierro media querys*/
