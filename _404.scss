@@ -1,31 +1,31 @@
-.body404{
-    background: $bg;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    font-family: 'Open Sans', sans-serif;
+.body404 {
+  background: $bg;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  .container404 {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      align-items: center;
+      justify-content: center;
+    }
 }
-.img404{
-    width: 50%;
+.img404 {
+  width: 50%;
 }
-.container404{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    align-items: center;
-    justify-content: center;
+    .h1404 {
+  color: black;
+  font-weight: 500;
+  font-size: 30px;
+  padding: 20px;
 }
-.h1404{
-    color:black;
-    font-weight: 500;
-    font-size: 30px;
-    padding: 20px;
-}
-.button404{
-    padding: 13px 30px;
-    border-radius: 15px;
-    border: none;
-    background: rgb(5, 129, 245);
-    color: white;
+.button404 {
+  padding: 13px 30px;
+  border-radius: 15px;
+  border: none;
+  background: rgb(5, 129, 245);
+  color: white;
 }

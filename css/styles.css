@@ -628,14 +628,11 @@ body {
     text-justify: auto; }
 
 .divImgSustantibilidad {
-  width: 100%;
   height: auto; }
   .divImgSustantibilidad img-fluid {
     width: 100%;
     object-fit: cover;
-    height: 300px;
-    max-height: 300px;
-    background-size: cover; }
+    height: 280px; }
 
 .mainInnova {
   font-family: "Teko", sans-serif;
@@ -849,18 +846,17 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: "Open Sans", sans-serif; }
+  .body404 .container404 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center; }
 
 .img404 {
   width: 50%; }
-
-.container404 {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  align-items: center;
-  justify-content: center; }
 
 .h1404 {
   color: black;
